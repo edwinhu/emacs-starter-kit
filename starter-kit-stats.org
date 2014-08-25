@@ -125,6 +125,16 @@ This file provides settings for ESS and R.
   (setq ess-eval-visibly-p nil)
 #+end_src
 
+** Fix Tramp and Plink issue in Windows
+#+BEGIN_SRC emacs-lisp
+    (cond
+       ((string-equal system-type "windows-nt")
+            ;; For some reason SAS sends cmdproxy.exe
+            (setq-default explicit-shell-file-name "/bin/bash")
+        )
+    )
+#+END_SRC
+
 ** R-autos
    Function completion. Conflicts with autocomplete.
 #+begin_src emacs_lisp :tangle no
