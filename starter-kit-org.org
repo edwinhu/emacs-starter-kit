@@ -67,6 +67,11 @@ Make yasnippet work properly with org-mode.
               ))
 #+end_src
 
+#+BEGIN_SRC emacs-lisp
+;; Enable Booktabs by Default
+(setq org-e-latex-tables-booktabs t)
+#+END_SRC
+
 ** Load up the Library of Babel
 The library of babel contains makes many useful functions available
 for use by code blocks in *any* emacs file.  See the actual
