@@ -13,14 +13,10 @@ The following packages will be downloaded and installed.
                                 'ack-and-a-half
                                 'auto-complete
                                 'autopair
-                                'browse-kill-ring
-                                ;; 'cdlatex
                                 'css-mode
                                 'exec-path-from-shell
                                 'expand-region
-                                ;; 'gist
                                 'hl-line+
-                                ;; 'idle-highlight
                                 'inf-ruby
                                 'latex-pretty-symbols
                                 ;; 'mac-key-mode
@@ -30,25 +26,19 @@ The following packages will be downloaded and installed.
                                 'multiple-cursors
                                 'pandoc-mode
                                 'paredit
-                                'python-mode
-                                ;; 'ipython
+                                'helm
                                 'jedi
                                 'redo+
                                 'ruby-mode
                                 's
                                 'smex
                                 'monokai-theme
-                                'solarized-theme
-                                'tango-2-theme
                                 'textmate
-                                ;; 'typopunct
                                 'yaml-mode
                                 'yasnippet
-                                'zenburn-theme
                                 'auctex
                                 'ess
                                 'r-autoyas
-                                'haskell-mode
                                 )
     "Libraries that should be installed by default.")
 #+end_src
