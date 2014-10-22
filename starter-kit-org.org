@@ -74,19 +74,17 @@ Make yasnippet work properly with org-mode.
 ** Load up the Library of Babel
 The library of babel contains makes many useful functions available
 for use by code blocks in *any* emacs file.  See the actual
-[[file:src/org/contrib/babel/library-of-babel.org][library-of-babel.org]] file for information on the functions, and see
+[[file:library-of-babel.org][library-of-babel.org]] file for information on the functions, and see
 [[http://orgmode.org/worg/org-contrib/babel/intro.php#library-of-babel][worg:library-of-babel]] for more usage information.
 #+begin_src emacs-lisp
   (org-babel-lob-ingest
    (expand-file-name
     "library-of-babel.org"
     (expand-file-name
-     "babel"
+     "doc"
      (expand-file-name
-      "contrib"
-      (expand-file-name
-       "org"
-       (expand-file-name "src" dotfiles-dir))))))
+      "org"
+      (expand-file-name "src" dotfiles-dir)))))
 #+end_src
 ** Speed keys
 Speed commands enable single-letter commands in Org-mode files when
@@ -122,6 +120,7 @@ contains an up to date list of the currently supported languages.
      (haskell . t)
      (clojure . t)
      (sql . t)
+     (latex . t)
      (ditaa . t)))
 #+end_src
 
