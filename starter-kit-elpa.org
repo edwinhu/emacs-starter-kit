@@ -26,7 +26,10 @@ The following packages will be downloaded and installed.
                                 'multiple-cursors
                                 'pandoc-mode
                                 'paredit
+<<<<<<< HEAD
                                 'helm
+=======
+>>>>>>> b82c2e72683f1efc48b062c5827d3111870eba4c
                                 'jedi
                                 'redo+
                                 'ruby-mode
