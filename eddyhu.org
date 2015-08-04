@@ -562,6 +562,7 @@ Create =html= files form the =org= sources, to help with documentation. To set u
   
     (setq org-export-html-style-extra "") 
     (setq org-export-html-postamble nil)
+    (setq org-html-validation-link nil)
   
 #+end_src
 
