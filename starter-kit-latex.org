@@ -92,7 +92,7 @@ This is part of the [[file:starter-kit.org][Emacs Starter Kit]].
 #+begin_src emacs-lisp
   (autoload 'ebib "ebib" "Ebib, a BibTeX database manager." t)
   (setq ebib-preload-bib-files 
-        '("/Users/kjhealy/Documents/bibs/socbib.bib"))
+        '("/users/eddyhu/Dropbox/Literature/main.bib"))
   (add-hook 'LaTeX-mode-hook #'(lambda ()
           (local-set-key "\C-cb" 'ebib-insert-bibtex-key)))
 #+end_src
