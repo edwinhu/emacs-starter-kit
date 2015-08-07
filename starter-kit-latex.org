@@ -156,6 +156,9 @@ Allow AucTeX to use biber as well as/instead of bibtex.
       )
 
   (add-hook 'TeX-mode-hook '(lambda () (setq TeX-command-default "latexmk")))  
+
+(setq org-latex-pdf-process (list "latexmk -f -pdf %f"))
+
 #+end_src
 
 *** Set a Path to Executables (optional)
