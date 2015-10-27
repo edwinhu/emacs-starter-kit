@@ -262,11 +262,11 @@ Tell RefTeX where the bibliography files are.
 A pandoc/gfm menu for markdown and tex files. 
 #+src-name: pandoc_mode
 #+begin_src emacs-lisp 
-  (load "pandoc-mode")
-  (add-hook 'markdown-mode-hook 'turn-on-pandoc)
-  (add-hook 'TeX-mode-hook 'turn-on-pandoc)
-  (add-hook 'pandoc-mode-hook 'pandoc-load-default-settings)
-  (add-to-list 'auto-mode-alist '("README\\.md\\'" . gfm-mode))
+  ;(load "pandoc-mode")
+  ;(add-hook 'markdown-mode-hook 'turn-on-pandoc)
+  ;(add-hook 'TeX-mode-hook 'turn-on-pandoc)
+  ;(add-hook 'pandoc-mode-hook 'pandoc-load-default-settings)
+  ;(add-to-list 'auto-mode-alist '("README\\.md\\'" . gfm-mode))
 #+end_src
 
 ** Local iBuffer Settings
