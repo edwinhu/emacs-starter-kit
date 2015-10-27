@@ -212,7 +212,7 @@ Tell RefTeX where the bibliography files are.
 
     ;; Default bibliography
     (setq reftex-default-bibliography
-    '("~/bibs/ebib.bib"))
+    '("/home/eddyhu/Dropbox/Literature/main.bib"))
 
 
     ;; CDLaTex minor mode: tab-trigger environments, paired paren
@@ -712,3 +712,4 @@ Some last tweaks.
   (global-set-key (kbd "C-x b") 'helm-mini)
   (global-set-key (kbd "C-x C-f") 'helm-find-files)
 #+END_SRC
+
